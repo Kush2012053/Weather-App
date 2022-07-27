@@ -66,20 +66,21 @@ const App = () => {
             <div className="inner-img">
               <img
                 src={`https://openweathermap.org/img/wn/${weather.icon}@4x.png`}
+                alt="Weather Icon"
                 height="100%"
                 width="100%"
               />
             </div>
           </div>
-          <h1 className="zero">{weather.temp}&#8451;</h1>
+          <h1 className="zero">{weather.temp} &#8451;</h1>
           <div className="overall">
             <div className="min">
               <h4 className="zero">min</h4>
-              <h3 className="zero">{weather.temp_min}&#8451;</h3>
+              <h3 className="zero">{weather.temp_min} &#8451;</h3>
             </div>
             <div className="max">
               <h4 className="zero">max</h4>
-              <h3 className="zero">{weather.temp_max}&#8451;</h3>
+              <h3 className="zero">{weather.temp_max} &#8451;</h3>
             </div>
           </div>
         </div>
